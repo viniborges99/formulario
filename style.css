@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+:root{
+    --cor01:#8686AD;
+    --cor02:#CDCDFA;
+    --cor03:#AD86A6;
+    --cor04:#F7FAD9;
+    --cor05:#FACDF2;
+}
+body{
+    background-color:var(--cor05);
+}
+header{
+    margin-top: 50px;
+    text-align: center;
+}
+main{
+    width: 25%;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    background-image:linear-gradient(to left, var(--cor01), var(--cor03));
+}
+h1{
+    text-align: center;
+    
+}
+li{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 10px; 
+}
+input{
+    padding: 2px;
+    border-radius: 3px;
+    border: none;
+    text-indent: 3px;
+}
+li input:hover{
+    width: 200px;
+    height: 20px;
+    transition: width 2s, height 4s;
+}
+#botao{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 5px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+#botao:active{
+    opacity: 0.8;
+}
+#res{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
